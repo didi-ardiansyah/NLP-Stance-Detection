@@ -26,7 +26,7 @@ Proyek ini membangun sistem **stance detection** otomatis yang mampu mengklasifi
 |---|---|
 | **Sumber** | Scraping mandiri via Instagram API (instagrapi) |
 | **Jumlah** | 8.000+ komentar Instagram |
-| **Topik** | Isu politik Indonesia |
+| **Topik** | Gerakan 17+8 Tuntutan Rakyat |
 | **Postingan** | 15 Reel & Post Instagram |
 | **Label** | Pro / Kontra / Netral |
 | **Anotator** | 3 anotator independen |
@@ -169,9 +169,6 @@ Model dijalankan N kali dalam mode training (dropout aktif) untuk mendapatkan di
 nlp-stance-detection/
 │
 ├── nlp_stance_detection.ipynb     ← Notebook utama (kode lengkap)
-├── cobascrap.py                   ← Script scraping komentar Instagram
-├── filtering.py                   ← Script filter & sampling data
-├── praproses.py                   ← Modul preprocessing teks
 └── README.md                      ← Dokumen ini
 
 /kaggle/input/skripsi2/            ← Kaggle Dataset (upload manual)
